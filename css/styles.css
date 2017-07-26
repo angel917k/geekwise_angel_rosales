@@ -6,14 +6,11 @@ font-family: 'Open Sans Condensed', sans-serif;
 
 /****Start of Nav****/
 .main-nav{
-    background:#00ffcc;
+    background:rgb(80,80,80);
     padding:10px;
-    height:60px;
+    height:40px;
 }
-.logo{
-    height:60px;
-    width:80px;
-}
+
 .nav-list{ 
   padding: 0px;
   float:right;
@@ -21,7 +18,7 @@ font-family: 'Open Sans Condensed', sans-serif;
 }
 .nav-item{
   float:left;
-  margin: 0px 10px 0px 15px;
+  margin: 0px 10px 0px 30px;
 }
 .nav-link{ 
   color: white;
@@ -35,7 +32,8 @@ font-family: 'Open Sans Condensed', sans-serif;
 
 /**** Start of hero****/
 .hero-section{
-  background-image:url('../images/elcapitan.jpg');
+  background-image:url('../images/eye-seattle.png');
+  background-size: 102% 140%;
   height:400px;
   background-repeat:no-repeat;
 }
@@ -204,3 +202,8 @@ font-family: 'Open Sans Condensed', sans-serif;
 }
 
 /****End of contact header****/
+.video-container{
+  height:315px;
+  width:50%;
+  margin: 0 auto;
+}
