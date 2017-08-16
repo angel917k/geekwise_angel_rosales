@@ -1,0 +1,176 @@
+body{
+    margin:0;
+font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+}
+/******Start of Logo for about page*******************/
+.logo-about{
+  float:left;
+  width:25%;
+}
+.eye-retreat{
+  height:60%;
+  width:60%;
+}
+.brand-name-secondary{
+    position:absolute;
+    left:7.5%;
+    top:1%;
+     font-family: 'Pacifico', cursive;
+     color:white;
+}
+/******End of Logo for about page*******************/
+
+/******Start of nav for Secondary page*******************/
+.main-nav-div{
+  float:left;
+  width:75%;
+  background-color: white;
+}
+.main-nav-secondary{
+  background-color: white;
+}
+
+.nav-list-secondary{
+  padding: 0px;
+  list-style:none;
+  background-color: white;
+}
+
+.nav-item-secondary{
+  float:left;
+  margin: -12.5px 1px 0px 30px;
+  font-size: 22.5px;
+}
+.current-page{
+border: 2px solid #00ffcc;
+width: 50px;
+height: 22px;
+position: absolute;
+left: 57%;
+top: 1.5%;
+}
+.nav-link-secondary{ 
+  color: black;
+  text-decoration: none; 
+}
+.nav-link-secondary:hover{
+  color:blue;
+}
+.blank{
+  position:absolute;
+  background:black;
+  top:2%;
+  right:3.5%;
+  margin-top:27.5px;
+  width:50%;
+  height:1px;
+  margin-left:25%;
+  margin-right:25%;
+}
+/******End of nav for secondary page*******************/
+.blank-space{
+margin-top: 5%;
+background: white;
+width: 800px;
+height: 10px;
+}
+/*** Start of bio-description column****/
+.glacier-container{
+  padding: 15px;
+  
+}
+.glacier-container::after{
+  content:"";
+  display: block;
+  clear:both;
+}
+
+.bio-description-column1{
+  width: 55%;
+  height:459px;
+  float: left;
+  background-color: #00ffcc;
+}
+.bio-description-column2{
+  width: 45%;
+  height:459px;
+  float: left;
+  background-color: #00ffcc;
+}
+
+.bio-description-column2 h4{
+  padding-right:30px;
+  text-align: justify;
+  margin-bottom: 12px;
+}
+
+.angel-glacier-paradise{
+  position:absolute;
+  left:.95%;
+  width:816px;
+  height:459px;
+  transition:all .25s;
+}
+.angel-glacier-paradise:hover{
+  left:25%;
+  transform:scale(1.45,1.45);
+  z-index:10;
+}
+.column-button{
+  padding:6px 12px;
+  border:none;
+  border-radius: 6px;
+  background:white;
+  clear:both;
+  text-align: center;
+  margin-left:10px;
+}
+.column-button:hover{
+  cursor:pointer;
+}
+
+/*** End of bio-description column****/
+
+/****Start of footer****/
+.footer-container{
+  height:70px;
+  padding:15px;
+  border-top:1px solid black;
+  clear:both;
+  margin-top: 5%;
+}
+
+.social-media-container{
+  width:15%;
+}
+.social-media-container .fa{
+  font-size:18px;
+  margin-left:15%;
+  color:blue;
+}
+
+.contact-container{
+  width:70%;
+  text-align:center;
+}
+
+.left{
+  float:left;
+}
+
+.right{
+  float:right;
+}
+
+.copyright{
+  display:inline-block;
+  margin:0px 15px;
+}
+.contact-info{
+  text-align:center;
+  display:inline-block;
+}
+
+/****End of footer****/
+
