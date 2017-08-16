@@ -1,0 +1,165 @@
+body{
+    margin:0;
+  font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+}
+
+/**** Start of hero****/
+.hero-section{
+  background-image:url('../images/eye-seattle-color-3.png');
+  background-size: 100% 100%;
+  height:385px;
+  background-repeat:no-repeat;
+}
+.brand-name{
+  text-align:center;
+  margin:0;
+  color:white;
+  padding-top:135px;
+  font-size:55px;
+  font-family: 'Pacifico', cursive;
+}
+.brand-background{
+  padding:20px;
+}
+/**** End of hero****/
+
+
+
+/****Start of Nav****/
+.main-nav{
+  background-color: gray;
+}
+
+.nav-list{
+  margin-right:30%; 
+  padding: 0px;
+  float:right;
+  list-style:none;
+  background-color: white;
+}
+
+.nav-item{
+  float:left;
+  margin: -27px 1px 0px 30px;
+  font-size: 22.5px;
+}
+.nav-link{ 
+  color: black;
+  text-decoration: none; 
+}
+.nav-link:hover{
+  color:blue;
+}
+.blank{
+  background:black;
+  margin-top:27.5px;
+  width:75%;
+  height:1px;
+  margin-left:12.5%;
+  margin-right:12.5%;
+}
+/**** End of nav****/
+
+/*** Start of bio-description column****/
+.banff-container{
+  padding: 15px;
+  
+}
+.banff-container::after{
+  content:"";
+  display: block;
+  clear:both;
+}
+
+.bio-description-column1{
+  width: 55%;
+  height:459px;
+  float: left;
+  background-color: #00ffcc;
+}
+.bio-description-column2{
+  width: 45%;
+  height:459px;
+  float: left;
+  background-color: #00ffcc;
+}
+
+.bio-description-column2 h4{
+padding-right: 30px;
+text-align: justify;
+margin-bottom: 12px;
+
+}
+
+.angel-banff{
+  position:absolute;
+  left:.95%;
+  width:816px;
+  height:459px;
+  transition:all .25s;
+}
+.angel-banff:hover{
+  left:25%;
+  transform:scale(1.45,1.45);
+  z-index:10;
+}
+.column-button{
+  padding:6px 12px;
+  border:none;
+  border-radius: 6px;
+  background:white;
+  clear:both;
+  text-align: center;
+  margin-left:10px;
+  margin-bottom:10px;
+  
+}
+.column-button:hover{
+  cursor:pointer;
+}
+
+/*** End of bio-description column****/
+/*******End of Introduction***********/
+
+
+/****Start of footer****/
+.footer-container{
+  height:70px;
+  padding:15px;
+  border-top:1px solid black;
+  clear:both;
+}
+
+.social-media-container{
+  width:15%;
+}
+.social-media-container .fa{
+  font-size:18px;
+  margin-left:15%;
+  color:blue;
+}
+
+.contact-container{
+  width:70%;
+  text-align:center;
+}
+
+.left{
+  float:left;
+}
+
+.right{
+  float:right;
+}
+
+.copyright{
+  display:inline-block;
+  margin:0px 15px;
+}
+.contact-info{
+  text-align:center;
+  display:inline-block;
+}
+
+/****End of footer****/
