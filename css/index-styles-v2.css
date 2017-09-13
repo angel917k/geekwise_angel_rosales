@@ -1,0 +1,24 @@
+body{
+    margin:0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+}
+
+/***************** Start of hero section*******************/
+
+.hero-background{
+  background-image:url('../images/eye-seattle-color-3.png');
+  background-size: 100% 100%;
+  height:385px;
+  background-repeat:no-repeat;
+}
+.hero-name{
+  text-align:center;
+  margin:0;
+  color:white;
+  padding-top:135px;
+  font-size:55px;
+  font-family: 'Pacifico', cursive;
+}
+
+/***************** End of hero section*******************/
